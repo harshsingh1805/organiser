@@ -38,9 +38,11 @@ DIRECTORIES =
 
 
  2- Mapping: Now we will map the file formats with directory.
-FILE_FORMATS = {file_format: directory
+FILE_FORMATS = {
+              file_format: directory
                 for directory, file_formats in DIRECTORIES.items()
-                for file_format in file_formats}
+                  for file_format in file_formats
+}
 3 - Here, I map file extensions with directory.
 
 
@@ -56,6 +58,10 @@ FILE_FORMATS = {file_format: directory
            directory_path.mkdir(exist_ok=True)
         file_path.rename(directory_path.joinpath(file_path))
 
+        
+
+
+         
         for dir in os.scandir():
             try:
                 os.rmdir(dir)
