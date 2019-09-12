@@ -39,11 +39,14 @@ DIRECTORIES =
 
 
  2- Mapping: Now we will map the file formats with directory.
-FILE_FORMATS = {
-              file_format: directory
+FILE_FORMATS = 
+{
+             file_format: directory
                 for directory, file_formats in DIRECTORIES.items()
                   for file_format in file_formats
+
 }
+
 3 - Here, I map file extensions with directory.
 
 
