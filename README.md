@@ -10,7 +10,10 @@ lazy junk organizer
 Following are the steps to be followed:
 
 1- Create Dictionaries: The code below will create the defined Directories.
-DIRECTORIES = {
+DIRECTORIES = 
+
+
+{
     "HTML": [".html5", ".html", ".htm", ".xhtml"],
     "IMAGES": [".jpeg", ".jpg", ".tiff", ".gif", ".bmp", ".png", ".bpg", "svg",
                ".heif", ".psd"],
@@ -33,11 +36,14 @@ DIRECTORIES = {
 
 }
 
+
  2- Mapping: Now we will map the file formats with directory.
 FILE_FORMATS = {file_format: directory
                 for directory, file_formats in DIRECTORIES.items()
                 for file_format in file_formats}
 3 - Here, I map file extensions with directory.
+
+
 
 def organize_junk():
     for entry in os.scandir():
