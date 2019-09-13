@@ -6,7 +6,7 @@ Basically, as a lazy programmer my desktop is full of files (Junk Files). Due to
 
 Screenshot before running the script
 
-![](IMAGES/IMG_20190912_122233.jpg)
+![](IMAGES/IMG_20190912_122504.jpg)
 
 lazy junk organizer
 Following are the steps to be followed:
@@ -80,6 +80,6 @@ THE CODE IS PROVIDED IN MAIN FILE...
 
 Screenshot after running the script
 
-![](IMAGES/IMG_20190912_122504.jpg)
+![](IMAGES/IMG_20190912_122233.jpg)
 
 Thank You!!!!
