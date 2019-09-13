@@ -12,6 +12,7 @@ Following are the steps to be followed:
 1- Create Dictionaries: The code below will create the defined Directories.
 DIRECTORIES = 
 {
+    
     "HTML": [".html5", ".html", ".htm", ".xhtml"],
       "IMAGES": [".jpeg", ".jpg", ".tiff", ".gif", ".bmp", ".png", ".bpg", "svg",
                ".heif", ".psd"],
